@@ -1,6 +1,6 @@
 
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-blue-600 via-purple-500 to-blue-600 font-sans">
+  <div class="min-h-screen bg-gradient-to-br from-blue-800 via-blue-500 to-sky-400 font-sans">
     <RouterView />
   </div>
 </template>
