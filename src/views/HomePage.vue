@@ -33,10 +33,10 @@ const profile = ref({
      </div>
 
     <!--Navigate to Info-->
-     <RouterLink
-      to="/info"
-      class="mt-8 text-sm text-gray-300 underline-offset-4 hover:text-[#4cc9f0] hover:underline transition-colors duration-200"
-      >About me 🖖
-    </RouterLink>
+      <RouterLink
+        to="/info"
+        class="mt-8 text-sm text-gray-300 underline-offset-4 hover:text-[#4cc9f0] hover:underline transition-colors duration-200"
+        >About me 🖖
+      </RouterLink>
   </main>
 </template>
