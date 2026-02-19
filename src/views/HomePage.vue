@@ -6,6 +6,22 @@ const profile = ref({
   name: 'Jorge A Coronado',
   slogan: 'Web Developer and Programmer',
   avatar: 'https://api.dicebear.com/9.x/toon-head/svg?seed=anikan&backgroundColor=6a4c93&clothesColor=0b3286&eyes=wink&mouth=smile',
+  links: [
+    {
+      id: 1,
+      title: 'GitHub',
+      url: 'https://github.com/jorgecoronado',
+      icon: 'code',
+      description: 'Checkout my projects'
+    },
+    {
+      id: 2,
+      title: 'LinkedIn',
+      url: 'https://www.linkedin.com/',
+      icon: 'briefcase',
+      description: 'Connect with me professionally'
+    },
+  ]
 });
 </script>
 
@@ -27,8 +43,12 @@ const profile = ref({
     <!-- Links List -->
      <div class="flex w-full max-w-md flex-col gap-4">
       <LinkCard
-        v-for="x of [1, 2, 3]"
-        :key="x"
+        v-for="link in profile.links"
+        :key="link.id"
+        :title="link.title"
+        :url="link.url"
+        :description="link.description"
+        :icon="link.icon"
       />
      </div>
 

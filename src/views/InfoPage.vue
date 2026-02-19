@@ -8,7 +8,7 @@
             My background allows me to design responsive and user-focused interfaces while also understanding server-side logic and 
             application structure. I use Git for version control and Python for additional programming projects and backend concepts. 
             I also have experience with Blender, which strengthens my understanding of visual design, layout, and spatial thinking in digital environments.`,
-    skills: ['Vue.js', 'Node.js', 'Tailwind CSS', 'Git', 'HTML', 'CSS', 'JavaScript', 'Python', 'blender'],
+    skills: ['Vue.js', 'Node.js', 'Tailwind CSS', 'Git', 'HTML', 'CSS', 'JavaScript', 'Python', 'Blender'],
     email: 'JCoronado_2294@stu.southtexascollege.edu',
     location: 'Mission, Tx'
   })
