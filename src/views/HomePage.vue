@@ -10,16 +10,23 @@ const profile = ref({
     {
       id: 1,
       title: 'GitHub',
-      url: 'https://github.com/jorgecoronado',
+      url: 'https://github.com/JorgeACoronado/',
       icon: 'code',
       description: 'Checkout my projects'
     },
     {
       id: 2,
       title: 'LinkedIn',
-      url: 'https://www.linkedin.com/',
+      url: 'https://www.linkedin.com/in/jorge-coronado-5aab26343/',
       icon: 'briefcase',
       description: 'Connect with me professionally'
+    },
+    {
+      id: 3,
+      title: 'Even Tab Split in Vue',
+      url: 'https://even-tab-split.jcoronado2294.workers.dev/',
+      icon: 'project',
+      description: 'See my Project'
     },
   ]
 });
